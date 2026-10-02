@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>For You ❤</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Background Music -->
+  <audio id="bgSong" src="song.mp3" loop preload="auto" playsinline></audio>
+
+  <!-- Tap To Open / Enter Screen -->
+  <div id="startOverlay" class="start-overlay">
+    <div class="start-content">
+      <div class="heart-pulse">💌</div>
+      <p class="start-text">Tap anywhere to open</p>
+    </div>
+  </div>
+
+  <!-- Viewer Container -->
+  <div id="slideContainer" class="slide-container">
+    <img id="activeSlide" src="images/1.jpg" alt="Slide 1" />
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
